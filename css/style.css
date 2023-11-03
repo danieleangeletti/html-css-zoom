@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+
+/* MAIN */
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinco-pallo-container {
+    width: 90%;
+    height: calc(100% - 144px);
+    border: 1px dashed black;
+}
+
+/* 
+    FOOTER
+*/
+footer {
+    width: 100%;
+    height: 60px;
+    border: 1px dashed black;
+}
