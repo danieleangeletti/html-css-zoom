@@ -8,7 +8,6 @@
     GENERAL
 */
 .settings-style {
-    color: white;
     font-size: 1.1em;
     padding: 4px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -33,6 +32,8 @@ main {
 
 .settings a {
     text-decoration: none;
+    color: white;
+    padding: 4px;
 }
 
 #settings-icon {
@@ -53,6 +54,17 @@ main {
     width: 240px;
     height: 160px;
     margin: 4px;
+    position: relative;
+}
+
+.pinco-pallo-label {
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 1.1em;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* 
