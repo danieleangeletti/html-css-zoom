@@ -70,9 +70,40 @@ main {
 /* 
     FOOTER
 */
-footer {
+.footer-container {
     width: 100%;
     height: 60px;
-    background-color: black;
-    border: 1px dashed white;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left *, .center *, .right * {
+    color: white;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left div {
+    padding: 3px 6px;
+}
+
+.microphone i, .camera i {
+    font-size: 1.5em;
+}
+
+.mute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stop-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
