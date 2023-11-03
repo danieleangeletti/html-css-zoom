@@ -7,21 +7,52 @@
 /* 
     GENERAL
 */
+.settings-style {
+    color: white;
+    font-size: 1.1em;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+}
 
 /* MAIN */
 main {
     width: 100%;
     height: calc(100vh - 60px);
-    border: 1px dashed black;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.settings {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.settings a {
+    text-decoration: none;
+}
+
+#settings-icon {
+    margin-left: 8px;
+}
+
 .pinco-pallo-container {
     width: 90%;
-    height: calc(100% - 144px);
+    height: calc(100% - 10vw);
     border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.pinco-pallo {
+    width: 240px;
+    height: 160px;
+    margin: 4px;
 }
 
 /* 
@@ -30,5 +61,6 @@ main {
 footer {
     width: 100%;
     height: 60px;
-    border: 1px dashed black;
+    background-color: black;
+    border: 1px dashed white;
 }
