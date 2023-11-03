@@ -83,20 +83,20 @@ main {
     color: white;
 }
 
-.left {
+.left, .center, .right {
     display: flex;
     align-items: center;
 }
 
-.left div {
+.left div, .center div {
     padding: 3px 6px;
 }
 
-.microphone i, .camera i {
+footer i {
     font-size: 1.5em;
 }
 
-.mute {
+.mute, .invite, .manage-partecipants, .polling, .share-screen, .chat, .record-icon, .breakout-rooms, .more {
     display: flex;
     flex-direction: column;
     align-items: center;
